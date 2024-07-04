@@ -24,7 +24,7 @@ backend:
   git: 'git@github.com:will-brandon/FibonacciPy.git'
 
 build:
-  system: '@Bunucu/BuildSystem/Python>=1.0.0'
+  system: '@Bunucu/BuildSystem/PythonTOML>=1.0.0'
 
 deps:
   pack:
