@@ -36,6 +36,10 @@ def err(msg: str, exit_code: int=1) -> NoReturn:
     Note
     ----
     This function is marked to return `NoReturn` because the function is guaranteed to exit the program.
+
+    Author
+    ------
+    Will Brandon <dev.willbrandon@gmail.com>
     """
 
     # Display the usage description.
@@ -61,6 +65,10 @@ def main(argv: List[str]) -> int:
     -------
     `int`
         The program exit code.
+    
+    Author
+    ------
+    Will Brandon <dev.willbrandon@gmail.com>
     """
 
     # Determine the number of command-line arguments provided including the program name.
@@ -106,6 +114,10 @@ def entrypoint() -> NoReturn:
     Note
     ----
     This function is marked to return `NoReturn` because the function is guaranteed to exit the program.
+
+    Author
+    ------
+    Will Brandon <dev.willbrandon@gmail.com>
     """
 
     # Exit with the code returned from the main function, and provide the main function with the list of program

@@ -41,6 +41,10 @@ def fibonacci(n: int) -> List[int]:
     ------
     `ValueError`
         If `n`, falls outside the range [`FIBONACCI_MIN_SEQUENCE_SIZE`, `FIBONACCI_MAX_SEQUENCE_SIZE`].
+
+    Author
+    ------
+    Will Brandon <dev.willbrandon@gmail.com>
     """
 
     # Raise an error if the sequence size is invalid.

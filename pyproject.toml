@@ -22,6 +22,8 @@ requires-python = ">=3.8"
 [project.scripts]
 fibonacci = 'fibonacci.main:entrypoint'
 
+fibonacci_test = 'fibonacci_tests.maintmp:entrypoint'
+
 [project.urls]
 Homepage = "https://projects.willbrandon.com/fibonaccipy"
 Documentation = "https://docs.willbrandon.com/fibonaccipy"
