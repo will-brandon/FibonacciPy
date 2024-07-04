@@ -1,0 +1,28 @@
+##
+## File:   pyproject.toml
+## Type:   Python Project TOML File
+## Author: Will Brandon <dev.willbrandon@gmail.com>
+## Date:   Sat, Apr 13, 2024
+##
+## Copyright © 2024 Will Brandon <dev.willbrandon@gmail.com>.
+##
+## Builds the Python project.
+##
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fibonacci"
+version = "1.0.0"
+dependencies = []
+requires-python = ">=3.8"
+
+[project.scripts]
+fibonacci = 'fibonacci.main:entrypoint'
+
+[project.urls]
+Homepage = "https://projects.willbrandon.com/fibonaccipy"
+Documentation = "https://docs.willbrandon.com/fibonaccipy"
+Repository = "https://github.com/will-brandon/FibonacciPy"

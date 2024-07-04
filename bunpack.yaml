@@ -1,0 +1,34 @@
+##
+## File:   bunpack.yaml
+## Type:   Bunucu Package Descriptor File
+## Author: Will Brandon <dev.willbrandon@gmail.com>
+## Date:   Thu, Jul 4, 2024
+##
+## Copyright © 2024 Will Brandon <dev.willbrandon@gmail.com>.
+##
+## Defines the Bunucu package.
+##
+
+overview:
+  name:     'FibonacciPy'
+  category: 'Exec'
+  version:  '1.0.0'
+  author:   'Will Brandon'
+
+  description: 'A little program written in Python that generates numbers from the Fibonacci sequence.'
+
+  languages:
+    - 'Python'
+
+backend:
+  git: 'git@github.com:will-brandon/FibonacciPy.git'
+
+build:
+  system: '@Bunucu/BuildSystem/Python>=1.0.0'
+
+deps:
+  pack:
+   - '@Bunucu/Lib/BunPyCore>=1.0.0'
+  tests:
+   - '@Bunucu/Lib/BunPyCore>=1.0.0'
+   - '@Bunucu/Lib/BunPyTest>=1.0.0'

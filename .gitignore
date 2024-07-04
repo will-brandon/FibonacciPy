@@ -1,0 +1,30 @@
+##
+## File:   .gitignore
+## Type:   Gitignore File
+## Author: Will Brandon <dev.willbrandon@gmail.com>
+## Date:   Mon, Jul 1, 2024
+##
+## Copyright © 2024 Will Brandon <dev.willbrandon@gmail.com>.
+##
+## Specifies patterns to ignore from Git version control.
+##
+
+############################################### BUNUCU PACKAGE UNIVERSAL ###############################################
+# Bunucu build
+.bunbuild
+
+# IDE metadata
+.vscode
+.idea
+
+# macOS Metadata
+.DS_Store
+########################################################################################################################
+
+
+######################################################## BUNPY #########################################################
+# Python Caches, Builds, and Distributions
+__pycache__
+*.egg-info
+/dist
+########################################################################################################################
