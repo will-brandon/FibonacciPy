@@ -9,7 +9,7 @@ Copyright (c) Will Brandon, 2024.
 Tests fibonacci/fibonacci.py.
 """
 
-from buntest.test_base import TestBase
+from juntest.test_base import TestBase
 
 from fibonacci.fibonacci import fibonacci
 

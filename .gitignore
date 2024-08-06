@@ -9,9 +9,9 @@
 ## Specifies patterns to ignore from Git version control.
 ##
 
-############################################### BUNUCU PACKAGE UNIVERSAL ###############################################
-# Bunucu build
-.bunbuild
+############################################## JUNEAUX PACKAGE UNIVERSAL ###############################################
+# Build
+/.junbuild
 
 # IDE metadata
 .vscode
@@ -24,7 +24,8 @@
 
 ######################################################## PYTHON ########################################################
 # Python Caches, Builds, and Distributions
+/build
+/dist
 __pycache__
 *.egg-info
-/dist
 ########################################################################################################################

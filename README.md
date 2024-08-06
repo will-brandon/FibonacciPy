@@ -1,9 +1,9 @@
 # Fibonacci
 By Will Brandon
 
-A simple Fibonacci sequence generator program implemented using Python built with the Bunucu software management tool.
+A simple Fibonacci sequence generator program implemented using Python built with the Juneaux software management tool.
 
-This program is intended to be simple and demonstrate usage of Bunucu for a Python project building with `pyproject.toml` and including tests.
+This program is intended to be simple and demonstrate usage of Juneaux for a Python project building with `pyproject.toml` and including tests.
 
 ## Usage
 
