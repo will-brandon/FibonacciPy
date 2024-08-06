@@ -14,17 +14,15 @@ overview:
   category: 'Exec'
   version:  '1.0.0'
   author:   'Will Brandon'
+  color:    '#F300FF'
 
   description: 'A little program written in Python that generates numbers from the Fibonacci sequence.'
-
-  languages:
-    - 'Python'
 
 backend:
   git: 'git@github.com:will-brandon/FibonacciPy.git'
 
 build:
-  system: '@Juneaux/BuildSystem/PythonTOML>=1.0.0'
+  system: '@Juneaux/BuildSystem/PythonSetuptools>=1.0.0'
 
 deps:
   pack:
