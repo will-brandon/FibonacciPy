@@ -25,6 +25,6 @@ fibonacci = 'fibonacci.main:entrypoint'
 fibonacci_test = 'fibonacci_tests.maintmp:entrypoint'
 
 [project.urls]
-Homepage = "https://projects.willbrandon.com/fibonaccipy"
-Documentation = "https://docs.willbrandon.com/fibonaccipy"
+Homepage = "https://projects.willbrandon.com/fibonacci-py"
+Documentation = "https://docs.willbrandon.com/fibonacci-py"
 Repository = "https://github.com/will-brandon/FibonacciPy"
