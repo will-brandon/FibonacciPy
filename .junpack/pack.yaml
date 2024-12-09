@@ -13,13 +13,15 @@ overview:
   name:     'FibonacciPy'
   category: 'Exec'
   version:  '1.0.0'
-  author:   'Will Brandon'
+  author:
+    name:   'Will Brandon'
+    email:  'dev.willbrandon@gmail.com'
   color:    '#F300FF'
 
   description: 'A little program written in Python that generates numbers from the Fibonacci sequence.'
 
 backend:
-  git: 'git@github.com:will-brandon/FibonacciPy.git'
+  github: 'git@github.com:will-brandon/FibonacciPy.git'
 
 build:
   system: '@Juneaux/BuildSystem/PythonSetuptools>=1.0.0'
